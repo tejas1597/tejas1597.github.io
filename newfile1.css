@@ -1,0 +1,44 @@
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+header.newfile {
+  background-position: center;
+  background-image: url("laptop.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.btn {
+  font-weight: 700;
+  position: relative;
+  top: 390px;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 1s;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+h2{
+	position: relative;
+	top: 200px;
+	letter-spacing: 20px;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-xl:hover{
+	background-color: #F0571A;
+	border-color: #F0571A;
+	cursor: pointer;
+	border-width: 5px;
+}
